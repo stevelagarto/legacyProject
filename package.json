@@ -12,31 +12,37 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm install --prefix client && npm run build --prefix client",
-    "test": "NODE_ENV=test jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/react": "^9.4.0",
     "aws-sdk": "^2.208.0",
     "body-parser": "^1.17.2",
     "concurrently": "^3.5.0",
     "cookie-session": "^2.0.0-beta.2",
     "dotenv": "^8.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "express": "^4.15.3",
-    "jest": "^22.1.4",
+    "jest": "^24.9.0",
     "migrate-mongoose": "^3.2.2",
-    "mongoose": "^4.11.1",
-    "ngrok": "^3.2.7",
+    "mongoose": "^4.13.20",
     "passport": "^0.3.2",
     "passport-google-oauth20": "^2.0.0",
     "path-parser": "^2.0.2",
-    "puppeteer": "^1.0.0",
+    "puppeteer": "^1.20.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
     "redis": "^2.8.0",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^6.5.1",
+    "kill-port": "^1.6.0",
     "nodemon": "^1.19.4"
   }
 }

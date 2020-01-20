@@ -1,7 +1,7 @@
 
 module.exports = {
-  googleClientID: "472742602087-9i7ic7fm3ia9634hpac9vvhfhn11ep3o.apps.googleusercontent.com",
-  googleClientSecret: "fW8n490MdG_riRjy9meUu1iM",
-  mongoURI: 'mongodb://localhost:27017/workshopp',
+  googleClientID: "287463753818-l4b5vpufbsqpk8m1jr1dji5315o9e3ea.apps.googleusercontent.com",
+  googleClientSecret: "CEJVQxSFQYQWLWg5YuFpK0se",
+  mongoURI: 'mongodb://babyyoda:1rocks@ds251158.mlab.com:51158/heroku_k65v9bbd',
   cookieKey: "123445"
 };
